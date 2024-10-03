@@ -1,0 +1,345 @@
+body{
+  background: #eee;
+}
+
+.bg {
+  width: 100%;
+  height: 840px;
+  padding: 50px 0;
+  background-image: url(../img/bgi.jpg);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.bg2 {
+  width: 100%;
+  height: 840px;
+  padding: 50px 0;
+  background-image: url(../img/bgi2.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.notificationBox {
+  text-align: center;
+  position: fixed;
+  width: 390px;
+  height: 30px;
+  background: rgba(164, 255, 149, 0.7);
+}
+.notificationBox h2 {
+  font-size: 1rem;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.cartWrap {
+  padding: 50px 30px 0;
+}
+.cartWrap h3 {
+  text-align: left;
+  font-size: 1rem;
+  margin: 30px 0 10px;
+  font-family: "M PLUS Rounded 1c";
+}
+.cartWrap p {
+  width: 100%;
+  background: #F1F1F1;
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  padding: 8px;
+  font-family: "M PLUS Rounded 1c";
+}
+.cartWrap .bdt {
+  border-top: 1px solid rgba(0, 0, 0, 0.35);
+}
+.cartWrap .mr {
+  margin-top: 20px;
+}
+.cartWrap .bt {
+  margin-bottom: 80px;
+}
+
+.btn {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  border-radius: 50px;
+  background: #FF9A3E;
+}
+.btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.btn a p {
+  color: #fff;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.confirmationWrap {
+  width: 90%;
+  margin: auto;
+  padding: 40px 0 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.confirmationWrap h3 {
+  border-bottom: 1px solid #ddd;
+  margin: 10px;
+  font-size: 1rem;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.confirmationWrap h3 p {
+  padding: 0 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.itemBox {
+  width: 90%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.6);
+}
+.itemBox h3 {
+  font-size: 1.4rem;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.itemBox .itemWrap {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.itemBox .itemWrap .itemImg {
+  width: 140px;
+  height: 140px;
+  box-shadow: 2px 3px 10px #aaa;
+  background-image: url(../img/item4.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+.itemBox .itemWrap .priceWrap {
+  padding: 10px;
+  width: 56%;
+  height: 140px;
+}
+.itemBox .itemWrap .priceWrap .name {
+  height: 50%;
+  font-size: 1.2rem;
+  text-align: left;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.itemBox .itemWrap .priceWrap .price {
+  height: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 1.2rem;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.itemBox .itemWrap2 {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+.itemBox .itemWrap2 .itemImg {
+  width: 140px;
+  height: 140px;
+  box-shadow: 2px 3px 10px #aaa;
+  background-image: url(../img/item2.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+.itemBox .itemWrap2 .priceWrap {
+  padding: 10px;
+  width: 56%;
+  height: 140px;
+}
+.itemBox .itemWrap2 .priceWrap .name {
+  height: 50%;
+  font-size: 1.2rem;
+  text-align: left;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.itemBox .itemWrap2 .priceWrap .price {
+  height: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 1.2rem;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.total {
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-family: "M PLUS Rounded 1c";
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.total2 {
+  width: 60%;
+  margin: 60px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-family: "M PLUS Rounded 1c";
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.blank {
+  height: 100px;
+  margin-bottom: 200px;
+}
+
+.btn2 {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 120px;
+  border-radius: 50px;
+  background: #FF9A3E;
+}
+.btn2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+  text-decoration: none;
+}
+.btn2 a p {
+  color: #fff;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.back a .rig {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  width: 40px;
+  height: 5px;
+  background: #555;
+  transform: rotate(45deg);
+}
+.back a .lef {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  width: 40px;
+  height: 5px;
+  background: #555;
+  transform: rotate(135deg);
+}
+
+.merchandiseBox {
+  width: 100%;
+  height: 500px;
+}
+.merchandiseBox .itemWrap {
+  background: #F2F2F2;
+  box-shadow: 2px 3px 10px #aaa;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.merchandiseBox .itemWrap .itemImg {
+  width: 140px;
+  height: 140px;
+  box-shadow: 2px 3px 10px #aaa;
+  background-image: url(../img/item4.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+.merchandiseBox .itemWrap .priceWrap {
+  padding: 10px;
+  width: 56%;
+  height: 140px;
+}
+.merchandiseBox .itemWrap .priceWrap .name {
+  font-size: 1.2rem;
+  text-align: left;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.merchandiseBox .itemWrap .priceWrap .BtnBox {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+.merchandiseBox .itemWrap .priceWrap .BtnBox .deleteBtn {
+  padding: 5px;
+  border-radius: 5px;
+  background: #FFF;
+}
+.merchandiseBox .itemWrap2 {
+  background: #F2F2F2;
+  box-shadow: 2px 3px 10px #aaa;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+.merchandiseBox .itemWrap2 .itemImg {
+  width: 140px;
+  height: 140px;
+  box-shadow: 2px 3px 10px #aaa;
+  background-image: url(../img/item2.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+.merchandiseBox .itemWrap2 .priceWrap {
+  padding: 10px;
+  width: 56%;
+  height: 140px;
+}
+.merchandiseBox .itemWrap2 .priceWrap .name {
+  font-size: 1.2rem;
+  text-align: left;
+  color: #000;
+  font-family: "M PLUS Rounded 1c";
+}
+.merchandiseBox .itemWrap2 .priceWrap .BtnBox {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+.merchandiseBox .itemWrap2 .priceWrap .BtnBox .deleteBtn {
+  padding: 5px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+@media screen and (min-width: 391px) {
+  body{
+    width: 390px;
+    margin: auto;
+  }
+}
